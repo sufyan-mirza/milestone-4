@@ -1,0 +1,213 @@
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f4f8;
+    border-radius: 30px;
+    box-shadow: 0 10px 8px 6px #2c3e50;
+    padding: 20px;
+}
+
+legend{
+    margin: auto;
+    color: #2c3e50;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "inter",sans-serif;
+    
+    
+}
+fieldset{
+    margin: auto;
+    color: #2c3e50;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #2c3e50;
+}
+label{
+    margin-top: 2px;
+    padding: 5px;
+    display: block;
+    color: #2c3e50;
+    font-family: "inter",sans-serif;
+}
+input{
+    width: calc(100% - 10px);
+    padding: 6px;
+    border-color: #2c3e50;
+    border-radius: 10px;
+    font-family: "inter",sans-serif;
+}
+textarea{
+    width: calc(100% - 10px);
+    padding: 6px;
+    border-color: #2c3e50;
+    border-radius: 10px;
+    font-family: "inter",sans-serif;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    width: calc(50% - 10px);
+    border-radius: 10px;
+    border-color: #2c3e50;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 135px;
+    margin-right: 135px;
+    font-family: "inter",sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+}
+.content1{
+    width: 30%;
+    background-color: #55b9e7;
+    padding: 20px;
+    border-radius: 20px;
+}
+.content2{
+    border: 1px solid #55b9e7;
+    padding: 20px;
+    border-radius: 20px;
+    width: 650px;
+    
+}
+.content-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.content-img img{
+    height: 186px;
+    width: 208px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+} 
+.content-img{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.content-skill h4{
+    font-family: "inter",sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.content-skill{
+    text-align: center;
+
+}
+.content-skill ul{
+    list-style: none;
+}
+.content-skill ul li{
+    font-family: "inter",sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.content2 h1{
+    font-family: "inter",sans-serif;
+    font-size: 39px;
+    color: #333131;
+    margin-bottom: 25px;
+}
+.content-add{
+    margin-bottom: 25px;
+}
+.content-add p{
+    font-family: "inter",sans-serif;
+    font-size: 14px;
+    color: #333131;
+    margin-bottom: 4px;
+}
+.content-summary{
+    margin-bottom: 35px;
+}
+.content-summary h1{
+    font-size: 26px;
+    color: #55b9e7;
+    font-family: "inter",sans-serif;
+    border-bottom: 1px solid #55b9e7;
+}
+.content-summary p{
+    color: #333131;
+    font-size: 18px;
+    font-family: "inter",sans-serif;
+}
+.content-experience{
+    margin-bottom: 35px;
+}
+.content-experience h1{
+    font-size: 26px;
+    color: #55b9e7;
+    font-family: "inter",sans-serif;
+    border-bottom: 1px solid #55b9e7;
+}
+.content-experience p{
+    color: #333131;
+    font-size: 18px;
+    font-family: "inter",sans-serif;
+}
+.content-education{
+    margin-bottom: 35px;
+}
+.content-education h1{
+    font-size: 26px;
+    color: #55b9e7;
+    font-family: "inter",sans-serif;
+    border-bottom: 1px solid #55b9e7;
+}
+.content-education p{
+    color: #333131;
+    font-size: 18px;
+    font-family: "inter",sans-serif;
+}
+.content-certification{
+    margin-bottom: 35px;
+}
+.content-certification h1{
+    font-size: 26px;
+    color: #55b9e7;
+    font-family: "inter",sans-serif;
+    border-bottom: 1px solid #55b9e7;
+    text-transform: uppercase;
+}
+.content-certification ul li{
+    color: #333131;
+    font-size: 18px;
+    font-family: "inter",sans-serif;
+}
+.content-hobbies{
+    margin-bottom: 35px;
+}
+.content-hobbies h1{
+    font-size: 26px;
+    color: #55b9e7;
+    font-family: "inter",sans-serif;
+    border-bottom: 1px solid #55b9e7;
+    text-transform: uppercase;
+}
+.content-hobbies ul li{
+    color: #333131;
+    font-size: 18px;
+    font-family: "inter",sans-serif;
+}
+.content-hobbies ul{
+    list-style: none;
+}
+.content-certification ul{
+    list-style: none;
+}
+#editButton {
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
